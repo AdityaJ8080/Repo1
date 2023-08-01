@@ -1,0 +1,25 @@
+public class Test {
+    public static void main(String[] args)  
+//Divided by 3
+
+for (i=1;i<=100;i++){
+  if (i%3 == 0){
+    system.out.println(i)
+  }
+}
+
+//Divided by 5
+
+for (i=1;i<=100;i++){
+  if (i%5 == 0){
+    system.out.println(i)
+  }
+}
+ 
+//Divided by 3&5
+
+for (i=1;i<=100;i++){
+  if (i%3 == 0 && i%5 == 0){
+      system.out.println(i)
+  }
+}
