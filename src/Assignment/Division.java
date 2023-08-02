@@ -1,7 +1,7 @@
-package testcode;
+package Assignment;
 
-public class DivisionTest {
-	public static void main (String[] args) {
+public class Division {
+public static void main (String[] args) {
 		
 		for (int i=1; i <= 100; i++) {
 			
@@ -25,3 +25,4 @@ public class DivisionTest {
 	}
 }
 //3,5
+
