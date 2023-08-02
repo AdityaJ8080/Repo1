@@ -24,5 +24,5 @@ public static void main (String[] args) {
 		}
 	}
 }
-//3,5
+//Divisible by 3,5 3&5
 
