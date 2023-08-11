@@ -23,12 +23,36 @@ public class Sum {
 		int Distance = Math.abs(i-j);
 		System.out.println(" Distance = " + Distance);
 		
-		int Large_Number = Math.max(i, j);
-		System.out.println(" Larger Digit = " + Large_Number);
+
+		if (i==j)
+		 {
+			System.out.println(" Numbers are equal ");
+		}
+		else {
+			
+	
+		if (i<j)
+		{
+			System.out.println(" Smaller Digit = " + i );	
+	
+		} else 
+		{
+			System.out.println(" Smaller Digit = " + j );	
+	
+		}
 		
-		int Small_Number = Math.min(i, j);
-		System.out.println(" Smaller Digit = " + Small_Number);
-		
+		if (i>j)
+		{
+			System.out.println(" Larger Digit = " + i );	
+	
+		} else 
+		{
+			System.out.println(" Larger Digit = " + j );	
+	
+		}
+		}
+				
+	
 	}
 
 }
